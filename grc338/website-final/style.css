@@ -4,7 +4,7 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
 
 
 div.home-container { 
-	background: url(about.jpg) center center fixed;
+	background: url(home.jpg) center center fixed;
 	background-size: cover;
 	position: relative;
 	min-height: 100vh;
@@ -131,7 +131,8 @@ p.slogan {
 	font-style: italic;
 	margin: 1em 0 2em;
 	color: rgb(24,45,9);
-	line-height: 1em;	
+	line-height: 1em;
+	padding-bottom: 1.4em;
 	}
 	
 footer {
