@@ -17,8 +17,8 @@ padding-bottom: 0em;
 }
 header nav ul li a {
 text-decoration: none;
-color: rgb(91, 115, 146);
-font-family: sans-serif;
+color: rgb(136, 168, 135);
+font-family: "butik", serif;
 font-size: 1.2em;
 font-weight: bold;
 margin-left: 0.5rem;
@@ -32,14 +32,14 @@ text-decoration: none;
 }
 section.mainstory a p {
 color: rgb(56, 56, 56);
-font-family: sans-serif;
+font-family: "butik", serif;
 font-size: 1.1em;
 margin-bottom: 2em;
 margin-left: 0.5rem;
 margin-right: 0.5rem;
 }
 section.mainstory a h2 {
-color: rgb(91, 115, 146);
+color: rgb(136, 168, 135);
 font-weight: bold;
 font-size: 3em;
 margin-left: 0.5rem;
@@ -50,14 +50,14 @@ text-decoration: none;
 }
 section.secondarystory a p {
 color: rgb(56, 56, 56);
-font-family: sans-serif;
+font-family: "warbler", serif;
 font-size: 1.1em;
 margin-bottom: 0.5em;
 margin-left: 0.5rem;
 margin-right: 0.5rem;
 }
 section.secondarystory a h2 {
-color: rgb(91, 115, 146);
+color: rgb(136, 168, 135);
 font-weight: bold;
 font-size: 1.8em;
 margin-top: 0.1em;
@@ -68,32 +68,32 @@ section.tertiarystory a {
 text-decoration: none;
 }
 section.tertiarystory a h2 {
-color: rgb(91, 115, 146);
+color: rgb(136, 168, 135);
 font-weight: bold;
 font-size: 1.2em;
-border-top: 1px solid rgb(91, 115, 146);
+border-top: 1px solid rgb(136, 168, 135);
 padding-top: 0.5em;
 margin-left: 0.5rem;
 margin-right: 0.5rem;
 }
 section.tertiarystory a p {
 color: rgb(56, 56, 56);
-font-family: sans-serif;
+font-family: "warbler", serif;
 font-size: 1.1em;
 margin-bottom: 2em;
 margin-left: 0.5rem;
 margin-right: 0.5rem;
 }
 footer {
-background-color: rgb(91, 115, 146);
+background-color: rgb(136, 168, 135);
 padding-top: 1em;
 padding-bottom: 1em;
 color: rgb(237, 237, 237);
-font-family: sans-serif;
+font-family: "warbler", serif;
 box-sizing: border-box;
 }
 aside {
-background-color: rgb(204, 207, 251);
+background-color: rgb(206, 187, 162);
 padding-top: 1em;
 padding-right: 0.5em;
 padding-bottom: 2em;
@@ -101,7 +101,7 @@ padding-left: 0.5em;
 }
 figcaption {
 color: rgb(103, 103, 103);
-font-family: sans-serif;
+font-family: "warbler", serif;
 font-size: 1.1em;
 margin-bottom: 1em;
 margin-top: 0.5em;
@@ -110,7 +110,7 @@ margin-left: 0.5rem;
 margin-right: 0.5rem;
 }
 h2.title {
-color: rgb(91, 115, 146);
+color: rgb(136, 168, 135);
 font-weight: bold;
 font-size: 3em;
 margin-left: 0.5rem;
@@ -120,7 +120,7 @@ margin-bottom: 0.25em;
 }
 p.paragraph {
 color: rgb(56, 56, 56);
-font-family: sans-serif;
+font-family: "warbler", serif;
 font-size: 1.1em;
 margin-bottom: 2em;
 margin-left: 0.5rem;
