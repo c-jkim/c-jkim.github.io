@@ -21,8 +21,10 @@ div.container:has(main.gallery) {
 header nav ul li a {
 text-decoration: none;
 color: rgb(136, 168, 135);
-font-family: "butik", serif;
-font-size: 1.2em;
+font-family: "rhythm-one", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 2em;
 font-weight: bold;
 margin-left: 0.5rem;
 }
@@ -35,7 +37,9 @@ text-decoration: none;
 }
 section.mainstory a p {
 color: rgb(56, 56, 56);
-font-family: "butik", serif;
+font-family: "ogg", sans-serif;
+font-weight: 400;
+font-style: normal;
 font-size: 1.1em;
 margin-bottom: 2em;
 margin-left: 0.5rem;
@@ -53,7 +57,9 @@ text-decoration: none;
 }
 section.secondarystory a p {
 color: rgb(56, 56, 56);
-font-family: "warbler", serif;
+font-family: "ogg", sans-serif;
+font-weight: 400;
+font-style: normal;
 font-size: 1.1em;
 margin-bottom: 0.5em;
 margin-left: 0.5rem;
@@ -81,7 +87,9 @@ margin-right: 0.5rem;
 }
 section.tertiarystory a p {
 color: rgb(56, 56, 56);
-font-family: "warbler", serif;
+font-family: "ogg", sans-serif;
+font-weight: 400;
+font-style: normal;
 font-size: 1.1em;
 margin-bottom: 2em;
 margin-left: 0.5rem;
@@ -92,7 +100,9 @@ background-color: rgb(136, 168, 135);
 padding-top: 1em;
 padding-bottom: 1em;
 color: rgb(237, 237, 237);
-font-family: "warbler", serif;
+font-family: "ogg", sans-serif;
+font-weight: 400;
+font-style: normal;
 box-sizing: border-box;
 }
 aside {
@@ -168,7 +178,9 @@ main.gallery {
 }
 figcaption {
 color: rgb(103, 103, 103);
-font-family: "warbler", serif;
+font-family: "ogg", sans-serif;
+font-weight: 400;
+font-style: normal;
 font-size: 1.1em;
 margin-bottom: 1em;
 margin-top: 0.5em;
@@ -187,7 +199,9 @@ margin-bottom: 0.25em;
 }
 p.paragraph {
 color: rgb(56, 56, 56);
-font-family: "warbler", serif;
+font-family: "ogg", sans-serif;
+font-weight: 400;
+font-style: normal;
 font-size: 1.1em;
 margin-bottom: 2em;
 margin-left: 0.5rem;
@@ -217,10 +231,16 @@ section.personal-info, section.interests{
 }
 
  label{
-    font-family: "warbler", serif;
+    font-family: "ogg", sans-serif;
     font-weight: 400;
     font-style: normal;
     color:#000;
+}
+
+h2 {
+    font-family: "rhythm-one", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 div.newsletter h2{
@@ -362,4 +382,83 @@ flex: 0 0 1em;
 section.secondarystory a p {
 flex: 0 0 4em;
 }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+
+    body {
+        background-color: rgb(28, 28, 28);
+        color: rgb(235, 235, 235);
+    }
+
+    h1 {  
+        background-image: url("logo-dark.svg");  
+        background-repeat: no-repeat;  
+        background-size: contain;  
+        }    
+        h1 img {  
+            opacity: 0;  
+            }      
+
+    header nav ul li a {
+        color: rgb(168, 199, 166);
+    }
+
+    section.mainstory a h2,
+    section.secondarystory a h2,
+    h2.title,
+    a.newsletter h2,
+    div.newsletter h2 {
+        color: rgb(168, 199, 166);
+    }
+
+    section.mainstory a p,
+    section.secondarystory a p,
+    section.tertiarystory a p,
+    p.paragraph,
+    figcaption {
+        color: rgb(210, 210, 210);
+    }
+
+    figcaption {
+        color: rgb(180, 180, 180);
+    }
+
+    aside {
+        background-color: rgb(60, 54, 48);
+    }
+
+    section.tertiarystory a h2 {
+        color: rgb(168, 199, 166);
+        border-top: 1px solid rgb(168, 199, 166);
+    }
+
+    section.personal-info,
+    section.interests {
+        background-color: rgb(88, 115, 87);
+    }
+
+    label {
+        color: rgb(245, 245, 245);
+    }
+
+    input,
+    select,
+    textarea {
+        background-color: rgb(45, 45, 45);
+        color: rgb(245, 245, 245);
+        border: 1px solid rgb(100, 100, 100);
+    }
+
+    button {
+        background-color: rgb(168, 199, 166);
+        color: rgb(28, 28, 28);
+    }
+    footer {
+        background-color: rgb(88, 115, 87);
+        color: rgb(245, 245, 245);
+    }
+    .gallery-intro {
+        border-left: 2px solid rgb(168, 199, 166);
+    }
 }
