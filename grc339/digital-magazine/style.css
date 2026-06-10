@@ -21,11 +21,10 @@ div.container:has(main.gallery) {
 header nav ul li a {
 text-decoration: none;
 color: rgb(136, 168, 135);
-font-family: "rhythm-one", sans-serif;
-font-weight: 400;
+font-family: "aabak", sans-serif;
+font-weight: 700;
 font-style: normal;
 font-size: 2em;
-font-weight: bold;
 margin-left: 0.5rem;
 }
 header nav {
@@ -143,7 +142,7 @@ main.gallery {
 .gallery-stage img {
     aspect-ratio: 4 / 3;
     object-fit: cover;
-} 
+}
 
 .gallery input:nth-of-type(1):checked ~ .gallery-stage figure:nth-of-type(1),
 .gallery input:nth-of-type(2):checked ~ .gallery-stage figure:nth-of-type(2),
@@ -238,8 +237,8 @@ section.personal-info, section.interests{
 }
 
 h2 {
-    font-family: "rhythm-one", sans-serif;
-    font-weight: 400;
+    font-family: "aabak", sans-serif;
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -418,10 +417,6 @@ flex: 0 0 4em;
     p.paragraph,
     figcaption {
         color: rgb(210, 210, 210);
-    }
-
-    figcaption {
-        color: rgb(180, 180, 180);
     }
 
     aside {
